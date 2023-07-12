@@ -614,7 +614,9 @@ select {
   background-position: calc(100% - 1rem) center;
   height: 2.75em;
   padding-right: 2.75em;
-  text-overflow: ellipsis; }
+  text-overflow: ellipsis; 
+  margin-bottom: 5px;
+  width: 350px}
   select option {
     color: #fff;
     background: #000; }
@@ -626,6 +628,7 @@ select {
 input[type="text"],
 input[type="password"],
 input[type="email"],
+
 select {
   height: 2.75em; }
 
