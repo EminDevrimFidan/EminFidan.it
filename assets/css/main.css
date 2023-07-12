@@ -615,8 +615,7 @@ select {
   height: 2.75em;
   padding-right: 2.75em;
   text-overflow: ellipsis; 
-  margin-bottom: 5px;
-  width: 350px}
+  }
   select option {
     color: #fff;
     background: #000; }
@@ -630,7 +629,9 @@ input[type="password"],
 input[type="email"],
 
 select {
-  height: 2.75em; }
+  height: 2.75em; margin-bottom: 5px;
+  width: 350px
+}
 
 textarea {
   padding: 0.75em 1em; }
